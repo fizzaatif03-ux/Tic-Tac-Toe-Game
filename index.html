@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="min-h-screen bg-gradient-to-t from-pink-400 to-purple-500">
+
+<!-- Result -->
+<div class="msg_container hidden flex-col relative items-center m-auto p-10 mt-[250px]">
+    <p class="text-purple-950 font-extrabold text-4xl">Winner</p>
+    <button id="new-game" class="bg-purple-500 text-white h-10 w-32 mt-10 hover:bg-purple-700 hover:-translate-y-2 transition duration-300 shadow-black">
+        New Game
+    </button>
+</div>
+
+<!-- Game Container -->
+<div class="flex flex-col relative items-center m-auto p-10 mt-[200px]">
+
+    <!-- Heading -->
+    <div class="text-4xl text-purple-950 font-extrabold underline">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+
+    <!-- Game Board -->
+    <div class="grid grid-cols-3 gap-4 mt-8 bg-pink-500 p-4 rounded-lg shadow-lg">
+        <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+         <button class="block bg-purple-600 md:w-24 md:h-24 w-20 h-20
+         p-2 transition duration-300 ease-in-out hover:-translate-y-2 shadow-[0_10px_25px_rgba(0,0,0,0.6)] rounded-lg border border-purple-800"></button>
+        
+    </div>
+
+    <!-- Reset Button -->
+    <div>
+        <button id="reset"
+            class="bg-purple-500 text-white h-10 w-32 mt-10 hover:bg-purple-700 hover:-translate-y-2 transition duration-300 shadow-black">
+            Reset Game!
+        </button>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
